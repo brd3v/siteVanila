@@ -7,7 +7,7 @@ console.log( 'costa gold é pica')
 
     //menu
     let menu = document.getElementById('menu').innerHTML
-    menu = menu + `<a>Inicio</a> <a>Curriculo</a> <a>Protifolio</a> <a> Contato </a>`
+    menu = menu + `<a>Curriculo</a> <a href='https://github.com/brd3v?tab=repositories'>Portifolio</a> <a> Contato </a>`
     document.getElementById('menu').innerHTML = menu;
 
     //menuMobile
@@ -16,8 +16,19 @@ console.log( 'costa gold é pica')
     document.getElementById('otherMenu').innerHTML = otherMenu;
     console.log(otherMenu)
 
+
         
 }
 
  header()
+
+ function secaoOne(){
+    
+    //section one
+    let secaoOne = document.getElementById('secaoOne').innerHTML
+    secaoOne = secaoOne +  `<div class='secaoOne'><img src="public/img/undraw_code_thinking_re_gka2.svg" alt=""><p>Full Stack Developer<p/> <p>Javascript/Typescript</p></div>`
+    document.getElementById('secaoOne').innerHTML = secaoOne
+    console.log(sec)
+ }
+ secaoOne()
 
