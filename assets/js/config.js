@@ -7,7 +7,7 @@ console.log( 'costa gold é pica')
 
     //menu
     let menu = document.getElementById('menu').innerHTML
-    menu = menu + `<a>Curriculo</a> <a href='https://github.com/brd3v?tab=repositories'>Portifolio</a> <a> Contato </a>`
+    menu = menu + `<a href='http://127.0.0.1:5500/assets/curriculum/curriculum.html'>Curriculo</a> <a href='https://github.com/brd3v?tab=repositories'>Portifolio</a> <a> Contato </a>`
     document.getElementById('menu').innerHTML = menu;
 
     //menuMobile

@@ -46,3 +46,42 @@ background-color: #0d0d1a;
     font-size: 50px;
     color: #4e4c79;;
 }
+#apresetation{
+    color: #4e4c79;
+    font-size: large;
+    
+    width: 100%;
+    height: 100vh;
+    display: flex;    
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#apresetation ul{
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+
+#apresetation h4{
+        color: #7e7eac;
+        margin-top: 1rem;
+
+}
+
+#apresetation h3{
+    margin-top: 1rem;
+    color: #7e7eac;
+
+}
+#apresetation h2{
+    color: #7e7eac;
+
+}
+
+#apresetation .contact{
+    margin-bottom: 1rem;
+    color: #7e7eac;
+
+}
