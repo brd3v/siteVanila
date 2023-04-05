@@ -1,8 +1,9 @@
 console.log( 'costa gold é pica')
+let bemVindo = prompt('Qual seu nome?')
  function header(){
     //name
     let name= document.getElementById('name').innerHTML
-     name = name+ `<h1 id='m'> Bruno Pedro</h1>`
+     name = name+ `<h1 id='m'> Bem Vindo ${bemVindo}</h1>`
      document.getElementById('name').innerHTML = name;
 
     //menu
