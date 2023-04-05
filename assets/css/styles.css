@@ -6,6 +6,7 @@
 html{
     background-color: #0d0d1a;
     font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic
 }
 header{
     display: flex;
@@ -21,6 +22,12 @@ header a{
     font-size: 1rem;
     margin-right: 1rem;
     cursor: pointer;
+}
+
+.menu{
+
+
+   
 }
 
 .secaoOne{
@@ -84,4 +91,28 @@ background-color: #0d0d1a;
     margin-bottom: 1rem;
     color: #7e7eac;
 
+}
+
+@media only screen and (min-width: 600px) {
+    .menuMobile{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+.menu{
+    display: none;
+    
+} 
+
+}
+
+
+.menuMobile{
+    transform: rotate(90deg);
+    font-size: 2.1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    margin-top: .4rem;
+ 
 }
